@@ -1,0 +1,4 @@
+__*
+.docker_build_hash
+.env
+.venv

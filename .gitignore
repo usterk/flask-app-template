@@ -2,3 +2,5 @@ __*
 .docker_build_hash
 .env
 .venv
+__pycache__
+*.pyc

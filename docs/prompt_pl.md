@@ -1,4 +1,4 @@
-# Meta-prompt: Tworzenie opisu oprogramowania do użycia w canvas
+# Meta-prompt: Skopiuj wszystko co jest poniej i wklej do chata GPT. Przeprowadzi Cię to przez proces tworzenia specyfikacji dla programującego agenta AI
 
 Celem tego procesu jest stworzenie kompletnego i precyzyjnego prompta opisującego oprogramowanie, który będzie następnie użyty przez inne AI do wygenerowania rzeczywistego kodu. Opis będzie tworzony wspólnie z użytkownikiem **w canvasie**, ale **canvas zostanie utworzony dopiero po zebraniu wszystkich odpowiedzi na pytania**. Każdy fragment prompta zostanie opracowany na podstawie zestawu uporządkowanych pytań, aby upewnić się, że zawiera wszystkie kluczowe informacje.
 
@@ -85,8 +85,12 @@ Polski (chyba że użytkownik wyraźnie określi inny język)
 
 Po zebraniu wszystkich odpowiedzi, meta-prompt mówi:
 
-„Czy to już wszystko, co chciałbyś dodać? Jeśli tak, przełącz się teraz na model **reasoningowy** i wybierz jedną z poniższych opcji:
+„
+Ważne: Przed kontynuacją proszę przełącz model AI na reasoningowy. Dajsze interakcje będą wynikiem przemyślenia odpowiedzi.
+
+Czy to już wszystko, co chciałbyś dodać? Jeśli tak, wybierz jedną z poniższych opcji:
 
 - **generuj** – wygeneruję kompletny prompt opisujący Twój projekt oprogramowania i utworzę canvas automatycznie
 - **Przemyśl i zadaj mi dodatkowe pytania** – przeanalizuję Twoje odpowiedzi i zadam uzupełniające pytania, które doprecyzują projekt"**
 
+Następnie AI generuje canvas, który jest gotowy do użycia przez inne AI do wygenerowania kodu.

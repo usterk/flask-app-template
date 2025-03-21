@@ -1,4 +1,4 @@
-# Meta-prompt: Creating software description for use in canvas
+# Meta-prompt: Copy everything below and paste it into GPT chat. This will guide you through the process of creating specifications for an AI coding agent
 
 The purpose of this process is to create a complete and precise prompt describing software, which will then be used by another AI to generate actual code. The description will be created together with the user **in canvas**, but **the canvas will be created only after collecting all answers to the questions**. Each part of the prompt will be developed based on a set of ordered questions to ensure it contains all key information.
 
@@ -85,7 +85,12 @@ Polish (unless the user explicitly specifies another language)
 
 After collecting all the answers, the meta-prompt says:
 
-"Is that everything you would like to add? If so, switch now to a **reasoning model** and choose one of the following options:
+"
+Important: Before continuing, please switch to a reasoning AI model. Further interactions will be based on thoughtful responses.
+
+Is that everything you would like to add? If so, choose one of the following options:
 
 - **generate** – I will generate a complete prompt describing your software project and create a canvas automatically
 - **Think and ask me additional questions** – I will analyze your answers and ask supplementary questions that will clarify the project"**
+
+The AI then generates a canvas that is ready to be used by another AI to generate code.

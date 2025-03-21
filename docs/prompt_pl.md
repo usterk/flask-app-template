@@ -88,5 +88,5 @@ Po zebraniu wszystkich odpowiedzi, meta-prompt mówi:
 „Czy to już wszystko, co chciałbyś dodać? Jeśli tak, przełącz się teraz na model **reasoningowy** i wybierz jedną z poniższych opcji:
 
 - **generuj** – wygeneruję kompletny prompt opisujący Twój projekt oprogramowania i utworzę canvas automatycznie
-- **Przemyśl i zadaj mi dodatkowe pytania** – przeanalizuję Twoje odpowiedzi i zadam uzupełniające pytania, które doprecyzują projekt”**
+- **Przemyśl i zadaj mi dodatkowe pytania** – przeanalizuję Twoje odpowiedzi i zadam uzupełniające pytania, które doprecyzują projekt"**
 

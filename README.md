@@ -2,35 +2,30 @@
 
 This is a Flask application template with Docker configuration. The project provides a ready-to-use setup for quick deployment and testing of web applications.
 
-## Rapid Application Development
+## Step by Step
 
-The main purpose of this repository is to enable rapid web application development. To get started:
-
-1. Make sure you have Docker installed on your system (Linux/Mac):
-   - [Docker Installation Guide](https://docs.docker.com/get-docker/)
-
-2. After cloning the repository, go to the `docs/prompt.md` file
-
-3. Copy the contents of this file and paste it into a GPT chat to generate a prompt for the coding agent (we recommend using GitHub Copilot with Claude 3.7 Sonnet Thinking model)
-
-4. The agent will generate complete application code based on your requirements, which will work immediately with this template
-
-## Step by Step: How to Create an Application
+The main purpose of this repository is to enable rapid web application development. Follow these steps to create your application:
 
 1. **Prepare the environment:**
-   ```
-   git clone git@github.com:usterk/flask-app-template.git
-   cd flask-app-template
-   ```
+   - Make sure you have Docker installed on your system (Linux/Mac):
+     [Docker Installation Guide](https://docs.docker.com/get-docker/)
+   - Clone the repository:
+     ```
+     git clone git@github.com:usterk/flask-app-template.git
+     cd flask-app-template
+     ```
 
 2. **Develop application specifications:**
-   - Open the `docs/prompt.md` file and familiarize yourself with the prompt format
-   - Copy the entire content of this file to GPT chat
+   - Open the `docs/prompt_en.md` file (English) or `docs/prompt_pl.md` (Polish)
+     - English: [prompt_en.md on GitHub](https://github.com/usterk/flask-app-template/blob/master/docs/prompt_en.md)
+     - Polish: [prompt_pl.md on GitHub](https://github.com/usterk/flask-app-template/blob/master/docs/prompt_pl.md)
+   - Copy the entire content of the file to a GPT chat
    - Answer all the auxiliary questions asked by the AI
    - After completing the dialogue, select the "generate" option to receive a complete prompt
 
 3. **Generate code:**
    - Paste the generated prompt into a new conversation with GitHub Copilot (or another coding agent)
+   - We recommend using GitHub Copilot with Claude 3.7 Sonnet Thinking model
    - The AI will generate complete application code compatible with this template structure
 
 4. **Run the application:**
@@ -44,22 +39,6 @@ The main purpose of this repository is to enable rapid web application developme
 5. **Iterative improvements:**
    - Modify code in real-time - changes are automatically loaded
    - If needed, go back to the coding agent for additional features
-
-## How to Use
-
-1. Clone the repository:
-   ```
-   git clone git@github.com:usterk/flask-app-template.git
-   cd flask-app-template
-   ```
-
-2. Run the application using the script:
-   ```
-   ./run.sh [app-name]
-   ```
-   If you don't provide a name, the default value "default-app" will be used.
-
-3. The application will be available at: http://localhost:5000
 
 ## What it Does
 
